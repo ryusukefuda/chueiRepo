@@ -1,0 +1,254 @@
+@charset "utf-8";
+body {
+    background: none repeat scroll 0 0 #fff;
+    margin: 0;
+    padding: 0;
+}
+/*=====================================================index,gamescreen wrapper */
+
+.wrapper {
+    background:#000 0 0 repeat-y;
+    margin: 0 auto;
+    width: 900px;
+    box-shadow:0 0 60px 20px rgba(0,0,0,0.6);
+    -moz-box-shadow:0 0 60px 20px rgba(0,0,0,0.6);
+    -webkit-box-shadow:0 0 60px 20px rgba(0,0,0,0.6);
+}
+
+/*=====================================================gamescreen header */
+
+.header {
+    background:url(../images/header.jpg) 0 0 no-repeat;
+    padding:0;
+    margin:0;
+    width:900px;
+    height:60px;
+}
+
+.header .headtitle {
+    background: ;
+    padding: ;
+    margin: ;
+    width: ;
+    height: ;
+    text-indent:-9999px;
+}
+
+/*=====================================================index,gamescreen contents */
+
+.contents {
+    padding:0;
+    border:0;
+    margin:0;
+}
+
+/*=====================================================gamescreen maincontents */
+
+#maincontents {
+    background:url(../images/gamescreen_back.jpg) 0 0 no-repeat;
+    padding:0;
+    margin:0;
+    display:block;
+    width:900px;
+    height:700px;
+}
+.startfield {
+    position:relative;
+
+}
+.startfield img {
+     position: absolute;
+     width: 100px;
+}
+/*=====================================================index topimage */
+
+.contents .topimage {
+    background:url(../images/headerback.jpg) 0 0 no-repeat;
+    padding:0;
+    margin:0 auto;
+    display:block;
+    width:900px;
+    height:647px;
+}
+    
+
+.contents .topimage .title {
+    background:url(../images/title.png) 0 0 no-repeat;
+    border:0 none;
+    padding:0;
+    margin:75px 0 0 75px;
+    width:562px;
+    height:278px;
+    text-indent:-9999px;
+    text-align:center;
+}
+
+.contents .topimage .rulebox .rule {
+    background:url(../images/asobikata.png) 0 0 no-repeat;
+    padding:15px 0 0 98px;
+    margin:0;
+    width:450px;
+    height:68px;
+    font-size:16px;
+    color:#FFF;
+    text-shadow:none;
+    text-align:left;
+}
+
+.contents .topimage .rulebox .start {
+    background:url(../images/sbutton.png) 0 0 no-repeat;
+    padding:0;
+    margin:13px auto 55px;
+    width:208px;
+    height:51px;
+    text-indent:-9999px;
+    display:block;
+}
+    
+.contents .topimage .rulebox a:hover {
+    opacity: 0.85;
+    filter: alpha(opacity=85);       /* ie 6 7 */
+    -ms-filter: alpha(opacity=85);  /* ie 8 */
+}
+
+.contents .topimage .rulebox .socialbottun {
+    padding:0;
+    margin:50px auto 0;
+}
+    
+    
+.contents .topimage .rulebox {
+    width:528px;
+    height:221px;
+    padding:0;
+    margin:42px 0 0 47px;
+}
+
+/*=====================================================index contentbottom */
+
+.contents .contentbottom {
+    padding:0;
+    margin:30px 45px;
+    width:810px;
+}
+
+.contents .contentbottom .left {
+    padding:0;
+    margin:0;
+    float:left;
+    display:block;
+    width:460px;
+    text-align:left;
+}
+
+.contents .contentbottom .left .text {
+    padding:0;
+    margin: 0 10px 0 0;
+    float:right;
+    display:block;
+    text-shadow:none;
+    font-size:14px;
+    line-height:1.6;
+    width:323px;
+    color:#FFF;
+    clear:both;
+    letter-spacing:0.05em;
+}
+
+.contents .contentbottom .left .text a {
+    color:#FFF;
+}
+
+.contents .contentbottom .right {
+    padding:0;
+    margin:0;
+    float:right;
+    display:block;
+    width:310px;
+}
+
+/*=====================================================index address */
+    
+.ui-widget {
+    color: white;
+    font-size: 13rem;
+}
+
+address {
+    background: none repeat scroll 0 0 #000;
+    color: #FFFFFF;
+    padding: 18px 0;
+    text-shadow: none;
+    color: white;
+    font-size: 12px;
+}
+
+/*=====================================================gamescreen maincontents */
+
+#maincontents .startfield {
+    position:absolute;
+    z-index:100;
+    }
+
+/*=====================================================gamescreen result */
+
+.result {
+    padding:0;
+    margin:0;
+    display:block;
+    width:900px;
+    height:700px;
+    }
+
+.flash {
+    margin:0 auto;
+    position:absolute;
+    }
+
+.scorearea {
+    position:relative;
+    top:360px;
+    right:170px;
+    text-align:right;
+    font-size:150px;
+    color:#FFF;
+    }
+
+/*=====================================================gamescreen footer */
+
+.footer {
+    background:#000000;
+    padding:20px 0;
+    margin:0;
+    width:900px;
+    height:400px;
+    position:absolute;
+    z-index:200;
+}
+
+.footer .social {
+    padding:0;
+    margin:0 0 5px 0;
+}
+
+.footer a {
+    font-size:11px;
+    }
+
+address a {
+    color: white;
+
+}
+
+.back {
+ position:relative;
+ top:375px;
+ left:180px;
+ }
+
+.back a:hover {
+ opacity: 0.85;
+ filter: alpha(opacity=85);   /* ie 6 7 */
+ -ms-filter: alpha(opacity=85);  /* ie 8 */
+ }
+

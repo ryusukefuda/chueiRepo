@@ -1,0 +1,28 @@
+
+body {
+    background-color:black;
+
+}
+
+#field {
+    position: relative;
+}
+
+#wrap1 {
+    position: relative;
+    left: 200px;
+}
+
+#wrap2 {
+    position: relative;
+    left: 400px;
+}
+img {
+     position: absolute;
+     width: 80px;
+}
+
+.chuei{
+    top: 0px;
+    left: 0px;
+}

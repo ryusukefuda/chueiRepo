@@ -1,0 +1,118 @@
+@charset "utf-8";
+html {
+    height: 100%;
+    padding-bottom: 1px;
+}
+body {
+    background: none repeat scroll 0 0 #FFFFFF;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+a {
+    color: #333333;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+a:hover, a:active {
+    text-decoration: underline;
+}
+img {
+    border: 0 none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+* {
+    font-family: "MS PGothic","Hiragino Kaku Gothic Pro";
+}
+html {
+    font-size: 62.5%;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+body {
+    font-size: 1.3rem;
+}
+h1 {
+    font-size: 2.4rem;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 2.2rem;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+h5 {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+p {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+li {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+input {
+    font-size: 1.3rem;
+    line-height: 1;
+    margin: 0 5px 0 0;
+    padding: 1px;
+    vertical-align: middle;
+}
+textarea {
+    font-size: 1.3rem;
+    line-height: 1.2;
+    margin: 0;
+    padding: 1px;
+}
+select {
+    font-size: 1.3rem;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+option {
+    font-size: 1.3rem;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+}
+.cf:before, .cf:after {
+    content: "";
+    display: table;
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+}/* CSS Document */
+
